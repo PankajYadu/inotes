@@ -1,0 +1,47 @@
+/* .sidebar img{
+    height:50px;
+    width:50px;
+    cursor:pointer;
+} */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+  }
+  
+  .sidebar img {
+    width: 60px;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  
+  .sidebar_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 0;
+    transition: 300ms;
+    list-style: none;
+    margin-left: 20px;
+  }
+  .sidebar_list_active{
+      height:300px;
+      list-style:none;
+
+  }
+  
+
+  
+  .sidebar_list_item {
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    margin-left: 15px;
+    gap:20px
+  
+    /* list-style:none; */
+  }
